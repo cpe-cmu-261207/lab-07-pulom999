@@ -1,9 +1,10 @@
+
 import SelectColorButton from "./SelectColorButton"
 
 const ColorPicker = () => {
   return (
     <div>
-      <div className="mx-auto my-4 flex justify-center space-x-4">
+      <div className="mx-auto my-4 flex justify-center space-x-4 ">
           <SelectColorButton color='#000000' />
           <SelectColorButton color='#804000' />
           <SelectColorButton color='#FE0000' />
